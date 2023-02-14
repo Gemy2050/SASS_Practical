@@ -1,0 +1,15 @@
+.main-button {
+  background-color: rgba($redColor, .8);
+  color: #FFF;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  max-width: 130px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  @include prefixer(transition, .3s, webkit moz);
+  &:hover {
+    background-color: $redColor;
+  }
+}
